@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f6f7;
+      margin: 0;
+      padding: 0;
+    }
+	
+	.logo {
+	  width: 60%;
+	  height: 60%;
+	  margin: 0 auto;
+	  display: block;
+	}
+
+    .Update-container {
+      width: 400px;
+      margin: 30px auto;
+      background-color: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    .Update-container h2 {
+      color:#5055b1;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .Update-container label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .Update-container input[type="text"],
+    .Update-container input[type="password"],
+    .Update-container select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .Update-container .row {
+      margin-bottom: 15px;
+    }
+
+    .Update-container .btn-group {
+      text-align: center;
+    }
+
+    .Update-container .btn-group input[type="submit"],
+    .Update-container .btn-group input[type="reset"] {
+      background-color: #5055b1;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .Update-container .btn-group input[type="reset"] {
+      background-color: #999;
+    }
+
+    .Update-container .inline {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .Update-container .radio-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    .message {
+      text-align: center;
+      color: red;
+    }

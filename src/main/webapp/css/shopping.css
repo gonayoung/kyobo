@@ -1,0 +1,44 @@
+@charset "EUC-KR";
+
+/* 페이지 전체 wrap */
+#wrap {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0 50px 0px;
+}
+
+/* 제목 */
+h1 {
+  color: #5055b1;
+}
+
+/* 테이블 구조 */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+table td,
+table th {
+  border: #d3d3d3 solid 1px;
+  padding: 5px;
+
+}
+
+th {
+  background: #5055b1;
+}
+
+
+/* 링크 스타일 */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #5055b1;
+}

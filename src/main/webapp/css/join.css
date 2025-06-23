@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f6f7;
+      margin: 0;
+      padding: 0;
+    }
+	
+	.logo {
+	  width: 60%;
+	  height: 60%;
+	  margin: 0 auto;
+	  display: block;
+	}
+
+    .join-container {
+      width: 400px;
+      margin: 30px auto;
+      background-color: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    .join-container h2 {
+      color:#5055b1;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .join-container label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .join-container input[type="text"],
+    .join-container input[type="password"],
+    .join-container select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .join-container .row {
+      margin-bottom: 15px;
+    }
+
+    .join-container .btn-group {
+      text-align: center;
+    }
+
+    .join-container .btn-group input[type="submit"],
+    .join-container .btn-group input[type="reset"] {
+      background-color: #5055b1;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .join-container .btn-group input[type="reset"] {
+      background-color: #999;
+    }
+
+    .join-container .inline {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .join-container .radio-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    .message {
+      text-align: center;
+      color: red;
+    }

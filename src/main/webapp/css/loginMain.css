@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+        body {
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 1440px;
+            margin: 0 auto;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        
+       .container > img {
+		   border-radius: 5px;
+	   }
+        
+        h1 {
+            color: #5055b1;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        .membership-benefits {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        .benefit {
+            background-color: #f7f7f7;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .benefit img {
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+        .benefit span {
+			color: #767676;
+			font-size: 13px;
+		}
+		.benefit p {
+			font-size: 16px;
+			font-weight: bold;
+		}
+        
+        .benefit:hover {
+            transform: translateY(-10px);
+        }
+        .benefit-title {
+            font-size: 18px;
+            color: #333;
+            margin-top: 15px;
+        }
+        
+        .home-button {
+            background-color: #5055b1;
+            color: white;
+            font-size: 17px;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-top: 50px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .home-button:hover {
+            background-color: #4e4f9b;
+            transform: scale(1.1);
+        }
